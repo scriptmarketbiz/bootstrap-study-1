@@ -1,0 +1,8 @@
+Always include the HTML5 doctype at the beginning of the page, along with the lang attribute and the correct character set
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"> 
+  </head>
+</html>
