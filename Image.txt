@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Rounded Corners</h2>
+  <p>The .rounded class adds rounded corners to an image:</p>            
+  <img src="cinqueterre.jpg" class="rounded" alt="Cinque Terre" width="304" height="236"> 
+</div>
+
+<div class="container">
+  <h2>Circle</h2>
+  <p>The .rounded-circle class shapes the image to a circle:</p>            
+  <img src="cinqueterre.jpg" class="rounded-circle" alt="Cinque Terre" width="304" height="236"> 
+</div>
+
+<div class="container">
+  <h2>Thumbnail</h2>
+  <p>The .img-thumbnail class creates a thumbnail of the image:</p>            
+  <img src="cinqueterre.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236"> 
+</div>
+
+<div class="container">
+  <h2>Aligning images</h2>
+  <p>Use the float classes to float the image to the left or to the right:</p> 
+  <img src="cinqueterre.jpg" class="float-left" alt="Paris" width="304" height="236"> 
+  <img src="cinqueterre.jpg" class="float-right" alt="Paris" width="304" height="236"> 
+</div>
+
+<div class="container">
+  <h2>Centered Image</h2>
+  <p>Center an image by adding the utility classes .mx-auto (margin:auto) and .d-block (display:block) to the image:</p> 
+  <img src="cinqueterre.jpg" class="mx-auto d-block" style="width:50%"> 
+</div>
+
+</body>
+</html>
