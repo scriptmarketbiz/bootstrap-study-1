@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>Bootstrap Card</title>
-  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
-<body> 
- 
+<body>
+
 <div class="container">
-  <h2>Basic Card</h2>
-  <div class="card">
-    <div class="card-body">Basic card</div>
-  </div>
+  <h2>Breadcrumbs</h2>
+  <p>The .breadcrumb class indicates the current page's location within a navigational hierarchy:</p>                  
+  <ul class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Photos</a></li>
+    <li class="breadcrumb-item"><a href="#">Summer 2017</a></li>
+    <li class="breadcrumb-item"><a href="#">Italy</a></li>
+    <li class="breadcrumb-item active">Rome</li>
+  </ul>
 </div>
 
 </body>
