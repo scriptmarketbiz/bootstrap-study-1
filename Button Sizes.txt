@@ -12,15 +12,10 @@
 <body>
 
 <div class="container">
-  <h2>Contextual Badges</h2>
-  <span class="badge badge-primary">Primary</span>
-  <span class="badge badge-secondary">Secondary</span>
-  <span class="badge badge-success">Success</span>
-  <span class="badge badge-danger">Danger</span>
-  <span class="badge badge-warning">Warning</span>
-  <span class="badge badge-info">Info</span>
-  <span class="badge badge-light">Light</span>
-  <span class="badge badge-dark">Dark</span>
+  <h2>Button Sizes</h2>
+  <button type="button" class="btn btn-primary btn-lg">Large</button>
+  <button type="button" class="btn btn-primary btn-md">Default</button>    
+  <button type="button" class="btn btn-primary btn-sm">Small</button>
 </div>
 
 </body>
