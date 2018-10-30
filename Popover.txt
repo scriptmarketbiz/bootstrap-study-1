@@ -1,0 +1,26 @@
+!DOCTYPE html
+html lang=en
+head
+  titleBootstrap Exampletitle
+  meta charset=utf-8
+  meta name=viewport content=width=device-width, initial-scale=1
+  link rel=stylesheet href=httpsmaxcdn.bootstrapcdn.combootstrap4.1.3cssbootstrap.min.css
+  script src=httpsajax.googleapis.comajaxlibsjquery3.3.1jquery.min.jsscript
+  script src=httpscdnjs.cloudflare.comajaxlibspopper.js1.14.3umdpopper.min.jsscript
+  script src=httpsmaxcdn.bootstrapcdn.combootstrap4.1.3jsbootstrap.min.jsscript
+head
+body
+
+div class=container
+  h3Popover Exampleh3
+  a href=# data-toggle=popover title=Popover Header data-content=Some content inside the popoverToggle popovera
+div
+
+script
+$(document).ready(function(){
+    $('[data-toggle=popover]').popover();   
+});
+script
+
+body
+html

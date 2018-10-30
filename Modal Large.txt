@@ -1,0 +1,49 @@
+!DOCTYPE html
+html lang=en
+head
+  titleBootstrap Exampletitle
+  meta charset=utf-8
+  meta name=viewport content=width=device-width, initial-scale=1
+  link rel=stylesheet href=httpsmaxcdn.bootstrapcdn.combootstrap4.1.3cssbootstrap.min.css
+  script src=httpsajax.googleapis.comajaxlibsjquery3.3.1jquery.min.jsscript
+  script src=httpscdnjs.cloudflare.comajaxlibspopper.js1.14.3umdpopper.min.jsscript
+  script src=httpsmaxcdn.bootstrapcdn.combootstrap4.1.3jsbootstrap.min.jsscript
+head
+body
+
+div class=container
+  h2Large Modalh2
+  !-- Button to Open the Modal --
+  button type=button class=btn btn-primary data-toggle=modal data-target=#myModal
+    Open modal
+  button
+
+  !-- The Modal --
+  div class=modal fade id=myModal
+    div class=modal-dialog modal-lg
+      div class=modal-content
+      
+        !-- Modal Header --
+        div class=modal-header
+          h4 class=modal-titleModal Headingh4
+          button type=button class=close data-dismiss=modal&times;button
+        div
+        
+        !-- Modal body --
+        div class=modal-body
+          Modal body..
+        div
+        
+        !-- Modal footer --
+        div class=modal-footer
+          button type=button class=btn btn-secondary data-dismiss=modalClosebutton
+        div
+        
+      div
+    div
+  div
+  
+div
+
+body
+html
