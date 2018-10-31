@@ -12,12 +12,17 @@
 <body> 
 
 <div class="container mt-3">
-  <h2>Inline Flex</h2>
-  <p>To create an inline flexbox container, use the d-inline-flex class:</p>
-  <div class="d-inline-flex p-3 bg-secondary text-white">  
-    <div class="p-2 bg-info">Flex item 1</div>
+  <h2>Auto Margins</h2>
+  <p>Easily add auto margins to flex items with .mr-auto (push items to the right), or by using .ml-auto (push items to the left):</p>
+  <div class="d-flex mb-3 bg-secondary">
+    <div class="p-2 mr-auto bg-info">Flex item 1</div>
     <div class="p-2 bg-warning">Flex item 2</div>
     <div class="p-2 bg-primary">Flex item 3</div>
+  </div>
+  <div class="d-flex mb-3 bg-secondary">
+    <div class="p-2  bg-info">Flex item 1</div>
+    <div class="p-2 bg-warning">Flex item 2</div>
+    <div class="p-2 ml-auto bg-primary">Flex item 3</div>
   </div>
 </div>
 

@@ -12,9 +12,15 @@
 <body> 
 
 <div class="container mt-3">
-  <h2>Inline Flex</h2>
-  <p>To create an inline flexbox container, use the d-inline-flex class:</p>
-  <div class="d-inline-flex p-3 bg-secondary text-white">  
+  <h2>Vertical Direction</h2>
+  <p>Use .flex-column to display the flex items vertically (on top of each other):</p>
+  <div class="d-flex flex-column mb-3">
+    <div class="p-2 bg-info">Flex item 1</div>
+    <div class="p-2 bg-warning">Flex item 2</div>
+    <div class="p-2 bg-primary">Flex item 3</div>
+  </div>
+  <p>Use .flex-column-reverse to reverse the vertical direction:</p>
+  <div class="d-flex flex-column-reverse">
     <div class="p-2 bg-info">Flex item 1</div>
     <div class="p-2 bg-warning">Flex item 2</div>
     <div class="p-2 bg-primary">Flex item 3</div>

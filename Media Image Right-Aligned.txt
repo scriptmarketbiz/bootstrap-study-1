@@ -9,15 +9,17 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
-<body> 
+<body>
 
 <div class="container mt-3">
-  <h2>Inline Flex</h2>
-  <p>To create an inline flexbox container, use the d-inline-flex class:</p>
-  <div class="d-inline-flex p-3 bg-secondary text-white">  
-    <div class="p-2 bg-info">Flex item 1</div>
-    <div class="p-2 bg-warning">Flex item 2</div>
-    <div class="p-2 bg-primary">Flex item 3</div>
+  <h2>Right-Aligned Media Image</h2>
+  <p>To right-align the media image, add the image after the .media-body container:</p>
+  <div class="media border p-3">
+    <div class="media-body">
+      <h4>John Doe <small><i>Posted on February 19, 2016</i></small></h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>      
+    </div>
+    <img src="img_avatar3.png" alt="John Doe" class="ml-3 mt-3 rounded-circle" style="width:60px;">
   </div>
 </div>
 
